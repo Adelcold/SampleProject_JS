@@ -1,0 +1,17 @@
+data = 
+{
+    "operation": [
+        {
+            "o1": "2Exp"
+        },
+        {
+            "o2": "sum"
+        },
+        {
+            "o3": "minus"
+        },
+        {
+            "o4": "multiple"
+        }
+    ]
+}

@@ -1,16 +1,16 @@
 {
-    "operation": [
+    "employees": [
         {
-            "o1": "2Exp"
+            "operator": "Exp2"
         },
         {
-            "o2": "sum"
+            "operator": "Sum"
         },
         {
-            "o3": "minus"
+            "operator": "Minus"
         },
         {
-            "o4": "multiple"
+            "operator": "Multiple"
         }
     ]
 }
