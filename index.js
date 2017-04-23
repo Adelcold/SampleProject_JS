@@ -59,7 +59,7 @@ function doPower(nmb) {
     return res;
 }
 
-function doSum(nmb) { //in ro besurate stack benevis
+function doSum(nmb) { //in ro besurate stack benevis  ------   
     var res = 0;
     for (var i = 0; i < nmb.length; i++) {
         res = res + nmb[i];
@@ -87,7 +87,7 @@ function doMultiple(nmb) {
     return res;
 }
 
-//operand haye dige ro ham add kon
+//operand haye dige ro ham add kon  ---- DONE
 
 //ok
 //bayad baghie operation haa ham inja ezae konam dg? are va cool
