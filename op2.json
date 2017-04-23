@@ -2,16 +2,30 @@ data =
 {
     "operation": [
         {
-            "o1": "2Exp"
+            "operator": "1st^2nd"
         },
         {
-            "o2": "sum"
+            "operator": "sum"
         },
         {
-            "o3": "minus"
+            "operator": "minus"
         },
         {
-            "o4": "multiple"
+            "operator": "multiple"
+        }
+    ],
+    "emp": [
+        {
+            "position": "Exp2"
+        },
+        {
+            "position": "Sum"
+        },
+        {
+            "position": "Minus"
+        },
+        {
+            "position": "Multiple"
         }
     ]
 }

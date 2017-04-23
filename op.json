@@ -1,16 +1,17 @@
+testOpData =
 {
     "employees": [
         {
-            "operator": "Exp2"
+            "position": "Exp2"
         },
         {
-            "operator": "Sum"
+            "position": "Sum"
         },
         {
-            "operator": "Minus"
+            "position": "Minus"
         },
         {
-            "operator": "Multiple"
+            "position": "Multiple"
         }
     ]
 }

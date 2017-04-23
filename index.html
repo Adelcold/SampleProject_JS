@@ -2,12 +2,10 @@
 
 
 <head>
-  
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="op2.json"></script>
-    
-    <script src="index.js"></script>
 
 </head>
 
@@ -19,50 +17,49 @@
     <div class="clear-fix"></div>
     <hr/>
 
-    <p id="test">test : </p>
-
     <div class="container">
         <h3>Fill the form and select your operation</h3>
-        <form onsubmit="calculateFunction()">
-            <div class="form-group">
-                <div class="input-group">
-                    <label>First Number</label>
-                    <input class="form-control" type="number" step="0.01" placeholder="first Number" name="firstNumber" />
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="input-group">
-                    <label>Second Number</label>
-                    <input class="form-control" type="number" step="0.01" placeholder="second Number" name="secondNumber" />
-                </div>
-            </div>
 
-            <div class="form-group">
-                <div class="input-group">
-                    <label>Operation</label>
-                    <select class="form-control" name="" id="dd">
-                     
-              </select>
-                </div>
+        <div class="form-group">
+            <div class="input-group">
+                <label>First Number</label>
+                <input class="form-control" type="number" id="fNo" step="0.01" placeholder="first Number" />
             </div>
-
-            <div class="form-group">
-                <div class="input-group">
-                    <button type="submit" class="btn btn-primary" onclick="calculateFunction();">Calculate</button>
-                </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <label>Second Number</label>
+                <input class="form-control" type="number" id="sNo" step="0.01" placeholder="second Number" />
             </div>
-        </form>
-    </div>
+        </div>
+        <div class="form-group">
+            <div class="input-group">
+                <label>Operation</label>
+                <select id="firstDropDown" class="form-control"></select>
+            </div>
+        </div>
+        <!--<div class="form-group">
+            <div class="input-group">
+                <label>test Op</label>
+                <select id="secondDropDown" class="form-control"></select>
+            </div>
+        </div>-->
+        <div class="form-group">
+            <div class="input-group">
+                <button type="button" class="btn btn-primary" onclick="calculateFunction()">Calculate</button>
+            </div>
+        </div>
 
-
-    <div class="form-group">
-        <div class="input-group">
-            <button type="submit" class="btn btn-primary" onclick="loadJSON();">test</button>
+        <div class="panel panel-info">
+            <div class="panel-heading">Answer of the calculation</div>
+            <div id="answer" class="panel-body"></div>
         </div>
     </div>
+    <div>
+        <p id="answer"></p>
+    </div>
 
-
-
+    <script src="index.js"></script>
 </body>
 
 </html>
